@@ -8,8 +8,8 @@ dotnet  test --help
 #cd src/bsp1
 #dotnet restore
 #dotnet run
-echo "--------------------"
+echo "---- aspnetcoreapp ----"
 #cd ../bsp2
-cd aspnetcoreapp
+cd bsp1    
 dotnet restore
 dotnet run
