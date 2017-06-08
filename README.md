@@ -13,4 +13,8 @@
     script:
      - ./build.sh --quiet verify
      
-     
+    language: node_js
+    node_js: "stable"
+    before_install:
+      - stty cols 80
+ 
