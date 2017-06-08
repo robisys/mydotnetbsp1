@@ -10,5 +10,6 @@ dotnet  test --help
 #dotnet run
 echo "--------------------"
 #cd ../bsp2
-#dotnet restore
-#dotnet run
+cd aspnetcoreapp
+dotnet restore
+dotnet run
