@@ -7,3 +7,8 @@ before_script:
  - chmod +x ./build.sh
 script:
   - ./build.sh --quiet verify
+  
+language: node_js
+"scripts": {
+  "test": "vows --spec"
+},
