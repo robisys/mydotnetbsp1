@@ -7,10 +7,3 @@ before_script:
 script:
   - ./build.sh --quiet verify
   
-language: node_js
-node_js:
-  - "iojs"
-  - "7"
-"scripts": {
-  "test": "vows --spec"
-},
